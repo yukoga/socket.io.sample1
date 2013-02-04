@@ -1,0 +1,19 @@
+{
+	"name" : "socket.io-sample-No.1",
+	"version" : "0.0.1",
+	"description" : "A tutorial for socket.io",
+	"keywords" : ["test", "tutorial", "socket.io"],
+	"author" : "ykoga",
+	"main" : "index",
+	"engines" : {"node" : ">=0.0.1"},
+	"scripts" : {
+		"test" : "make test"
+	},
+	"dependencies" : {
+		"socket.io": "*"
+	},
+	"devDependencies" : {
+		"mocha" : "1.8.x",
+		"should" : "*"
+	}
+}
